@@ -1,35 +1,50 @@
-# Sachin_Portfolio
+# 💼 Sachin Giri - Personal Portfolio
 
-https://github.com/sachingiri58/Sachin_Portfolio
+[GitHub Repository](https://github.com/sachingiri58/Sachin_Portfolio)
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+ Sachin Giri is a fully responsive personal portfolio website, optimized for **all devices**, built using **HTML, CSS, and JavaScript**.  
+Showcases my **skills, education, projects, and contact information** in a clean, modern design.
 
-## Demo
+---
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+## 🌐 Demo Screenshots
 
-## Prerequisites
+### Desktop
+![Desktop Demo](./website-demo-image/frist-page.jpg "Desktop Demo")
 
-Before you begin, ensure you have met the following requirements:
+### Education Section
+![Education Demo](./website-demo-image/education.png "Education Demo")
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+### Projects Section
+![Projects Demo](./website-demo-image/project.png "Projects Demo")
+
+### Contact Section
+![Contact Demo](./website-demo-image/contact.png "Contact Demo")
+
+---
+
+## ⚡ Features
+
+- Fully **responsive layout** for desktop, tablet, and mobile devices  
+- **About Me** section with professional information  
+- **Resume/Skills** section showcasing education, internships, programming skills and Resume PDF format  
+- **Projects** section with descriptions and images of each project  
+- **Contact Form** integrated for email communication  
+- **Social Links**: LinkedIn, GitHub, LeetCode, Email  
+
+---
+
+## 🛠️ Prerequisites
+
+Before running this project, make sure you have:
+
+- **Git** installed on your system: [Download Git](https://git-scm.com/downloads)  
+
+Clone the repository:
 
 ```bash
-sudo git clone https://github.com/sachingiri58/Sachin_Portfolio
-```
+# Linux / macOS
+sudo git clone https://github.com/sachingiri58/Sachin_Portfolio.git
 
-Windows:
-
-```bash
-git clone https://github.com/sachingiri58/Sachin_Portfolio
-```
-
-## Contact
-
-If you want to contact me you can reach me at [Linkdin](https://www.linkedin.com/in/sachin-giri-657b98221/).
-
-
-## License
-
-MIT
+# Windows
+git clone https://github.com/sachingiri58/Sachin_Portfolio.git
