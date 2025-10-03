@@ -429,22 +429,60 @@ main {
 
 .contact-info address { font-style: normal; }
 
+/* ============================= */
+/* Social Icons - Hacker/Gaming Theme */
+/* ============================= */
 .social-list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center; /* ek line madhe center */
   align-items: center;
-  gap: 15px;
-  padding-bottom: 4px;
-  padding-left: 7px;
+  gap: 25px;
+  padding: 0;
+  margin-top: 30px;
+  list-style: none;
 }
 
+/* Individual Social Icon */
 .social-item .social-link {
-  color: var(--light-gray-70);
-  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #111; /* black circle */
+  font-size: 30px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(255,255,255,0.1);
+}
+
+/* Default Brand Colors */
+.social-item .social-link[href*="linkedin"] { color: #0A66C2; }
+.social-item .social-link[href*="github"] { color: #ffffff; }
+.social-item .social-link[href*="mailto"] { color: #f89f1b; } 
+.social-item .social-link[href*="leetcode"] { color: #f89f1b; }
+
+/* Hover Effect - Zoom + Neon Glow */
+.social-item .social-link:hover {
+  transform: scale(1.4);
+  box-shadow: 0 0 25px currentColor, 0 0 50px currentColor;
+}
+
+/* Footer Text Style */
+footer p {
+  text-align: center;
+  color: #7f8cba; /* subtle grey/blue accent */
+  font-size: 14px;
+  margin-top: 40px;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+footer p:hover {
+  color: #a0b0ff; /* hover subtle glow accent */
 }
 
 
-.social-item .social-link:hover { color: var(--light-gray); }
 
 
 
@@ -868,7 +906,23 @@ main {
 }
 
 
+.skill-section {
+  padding-top: 80px; /* 👈 ithe top padding milnar */
+  text-align: center; /* button center la asel */
+}
 
+.stylish-button {
+  background: linear-gradient(135deg, #6a11cb, #fc2525);
+  color: white;
+  padding: 12px 30px;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
 
 
 /*-----------------------------------*\
@@ -1221,6 +1275,48 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
+/* Social Icons Section */
+.social-icons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.social-icons a {
+  font-size: 48px;
+  text-decoration: none;
+  transition: 0.4s;
+  position: relative;
+}
+
+/* Brand Colors + Neon Glow */
+.social-icons a.linkedin {
+  color: #0077b5;
+  text-shadow: 0 0 15px #0077b5, 0 0 30px #0077b5;
+}
+
+.social-icons a.github {
+  color: #fff;
+  text-shadow: 0 0 15px #999, 0 0 30px #555;
+}
+
+.social-icons a.email {
+  color: #ff3c3c;
+  text-shadow: 0 0 15px #ff3c3c, 0 0 30px #ff1a1a;
+}
+
+.social-icons a.leetcode {
+  color: #f89f1b;
+  text-shadow: 0 0 15px #f89f1b, 0 0 30px #ffae42;
+}
+
+/* Hover Effect – Bigger Glow */
+.social-icons a:hover {
+  transform: scale(1.3);
+  filter: brightness(140%);
+  text-shadow: 0 0 25px currentColor, 0 0 45px currentColor, 0 0 65px currentColor;
+}
 
 
 
