@@ -1,27 +1,5 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
 
-  /**
-   * colors
-   */
-
-  /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
@@ -313,6 +291,73 @@ main {
 /*-----------------------------------*\
   #SIDEBAR
 \*-----------------------------------*/
+.button-opportunities {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  text-align: center;
+  padding: 8px 28px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+  display: inline-block;
+  min-width: 200px;
+}
+
+.button-opportunities::before {
+  content: "";
+  position: absolute;
+  top: 0; left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: skewX(-20deg);
+  transition: all 0.7s;
+}
+
+.button-opportunities:hover::before {
+  left: 200%;
+}
+
+.button-opportunities:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.5);
+}
+
+/* Typing effect */
+.button-opportunities span {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #fff;
+  animation: typing 6s steps(60, end) infinite, blink 0.7s step-end infinite;
+  transition: color 0.5s ease, text-shadow 0.5s ease;
+}
+
+
+.button-opportunities:hover span {
+  color: #fff; /* text stays white */
+  text-shadow: 
+    0 0 5px #00f,  /* blue glow */
+    0 0 10px #0ff, /* cyan/white glow */
+    0 0 15px #fff; /* strong white glow */
+}
+
+@keyframes typing {
+  0% { width: 0; }
+  40% { width: 100%; }
+  60% { width: 100%; }
+  100% { width: 0; }
+}
+
+@keyframes blink {
+  from, to { border-color: transparent; }
+  50% { border-color: #fff; }
+}
 
 .sidebar {
   margin-bottom: 15px;
@@ -333,7 +378,10 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  
+  
 }
 
 .info-content .name {
