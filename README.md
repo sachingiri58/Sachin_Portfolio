@@ -4,6 +4,7 @@
 
  Sachin Giri is a fully responsive personal portfolio website, optimized for **all devices**, built using **HTML, CSS, and JavaScript**.  
 Showcases my **skills, education, projects, and contact information** in a clean, modern design.
+View Resume : https://drive.google.com/file/d/1ziZGQKVwer9iHqarkp70KwYI_esdnRO9/view?usp=drivesdk
 
 ---
 
