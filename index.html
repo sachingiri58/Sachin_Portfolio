@@ -660,187 +660,140 @@
         <header>
           <h2 class="h2 article-title">Portfolio</h2>
         </header>
-
+      
         <section class="projects">
-
+      
+          <!-- FILTER BUTTONS -->
           <ul class="filter-list">
-
             <li class="filter-item">
               <button class="active" data-filter-btn>All</button>
             </li>
-
             <li class="filter-item">
               <button data-filter-btn>Web development</button>
             </li>
-
             <li class="filter-item">
               <button data-filter-btn>Full Stack development</button>
             </li>
-
             <li class="filter-item">
               <button data-filter-btn>Applications</button>
             </li>
-
           </ul>
-
+      
+          <!-- DROPDOWN FILTER -->
           <div class="filter-select-box">
-
             <button class="filter-select" data-select>
-
               <div class="select-value" data-selecct-value>Select category</div>
-
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
               </div>
-
             </button>
-
+      
             <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Full Stack development</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>Web development</button></li>
+              <li class="select-item"><button data-select-item>Full Stack development</button></li>
+              <li class="select-item"><button data-select-item>Applications</button></li>
             </ul>
-
           </div>
-
+      
+          <!-- PROJECT LIST -->
           <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="Full Stack development">
-              <a href="https://lms-2aj9.vercel.app/">
-
+      
+            <!-- FULL STACK PROJECT 1 -->
+            <li class="project-item active" data-filter-item data-category="full stack development">
+              <a href="https://lms-2aj9.vercel.app/" target="_blank">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/Lms.png" alt="finance" loading="lazy">
+                  <img src="./assets/images/Lms.png" alt="LMS" loading="lazy">
                 </figure>
-
-                <h3 class="project-title" style="color: rgb(207, 152, 15);">Learning Management System </h3>
-                <h5 style="color:white;">A Learning Management System (LMS) is an online platform used to deliver and manage learning content. It helps track learner progress efficiently..
-
+      
+                <h3 class="project-title" style="color: rgb(207,152,15);">
+                  Learning Management System
+                </h3>
+                <h5 style="color:white;">
+                  Online platform to manage courses, users, and learning progress.
                 </h5>
-
-                <p class="project-category"></p>
-
               </a>
             </li>
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://calu-diverse.vercel.app/">
-
+      
+            <!-- FULL STACK PROJECT 2 -->
+            <li class="project-item active" data-filter-item data-category="full stack development">
+              <a href="#">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project11.png" alt="finance" loading="lazy">
+                  <img src="./assets/images/project-1.jpg" alt="Traffic System" loading="lazy">
                 </figure>
-
-                <h3 class="project-title" style="color: rgb(207, 152, 15);">CalcDiverse</h3>
-                <h5 style="color:white;">A web-based platform with 30+ interactive calculators for solving mathematical, scientific, and computational problems using HTML, CSS, and JavaScript.
-
+      
+                <h3 class="project-title" style="color: rgb(207,152,15);">
+                  Adaptive AI Based Traffic Management System
+                </h3>
+                <h5 style="color:white;">
+                  AI system that controls signals dynamically and prioritizes emergency vehicles.
                 </h5>
-
-                <p class="project-category"></p>
-
               </a>
             </li>
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
+      
+            <!-- WEB DEVELOPMENT PROJECTS -->
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://calu-diverse.vercel.app/" target="_blank">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/project11.png" alt="CalcDiverse" loading="lazy">
                 </figure>
-
-                <h3 class="project-title" style="color: rgb(207, 152, 15);">Adopative AI Based Traffic Management System</h3>
-                <h5 style="color:white;">AI-based traffic system detects vehicles, adjusts signal timings in real-time, and prioritizes emergency vehicles for smooth, efficient traffic flow</h5>
-
-                <p class="project-category"></p>
-
+      
+                <h3 class="project-title" style="color: rgb(207,152,15);">CalcDiverse</h3>
+                <h5 style="color:white;">
+                  30+ interactive calculators using HTML, CSS, and JavaScript.
+                </h5>
               </a>
             </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
+      
+            <li class="project-item active" data-filter-item data-category="web development">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-2.jpg" alt="orizon" loading="lazy">
+                  <img src="./assets/images/project-2.jpg" alt="Coffee" loading="lazy">
                 </figure>
-
-                <h3 class="project-title" style="color: rgb(207, 152, 15);">Coffee Management System</h3>
-                <h5 style="color: white;">Coffee shop website with About, Menu, Gallery, and more; designed to enhance customer experience and showcase the café’s ambience.</h5>
-
-                <p class="project-category"></p>
-
+      
+                <h3 class="project-title" style="color: rgb(207,152,15);">
+                  Coffee Management System
+                </h3>
+                <h5 style="color:white;">
+                  Coffee shop website with menu, gallery, and about sections.
+                </h5>
               </a>
             </li>
-
-            <li class="project-item  active" data-filter-item data-category="full Stack development">
-              <a href="#">
-
+      
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://food-ordering-website-eosin-six.vercel.app/" target="_blank">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="./assets/images/project-4.png" alt="Food Order" loading="lazy">
                 </figure>
-
-                <h3 class="project-title" style="color:  rgb(207, 152, 15);">Chatting Application</h3>
-<h5 style="color: white;">Real-time chat app with user login, clean UI, instant messaging, and secure communication for both personal and group conversations.</h5>
-                <p class="project-category"></p>
-
+      
+                <h3 class="project-title" style="color: rgb(207,152,15);">
+                  Food Ordering System
+                </h3>
+                <h5 style="color:white;">
+                  Order food, manage cart, favorites, and track orders.
+                </h5>
               </a>
             </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://food-ordering-website-eosin-six.vercel.app/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title" style="color:  rgb(207, 152, 15);">Food Ordering System</h3>
-<h5 style="color: white;">Users can create accounts, browse food items, place orders, view prices, mark favorites, and track orders in their dashboard.</h5>
-                <p class="project-category"></p>
-
-              </a>
-            </li>
-
-            
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
+      
           </ul>
         </section>
-
       </article>
+      
 
 
 
